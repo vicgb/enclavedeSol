@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>En clave de Sol</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome & Pixeden Icon Stroke icon font-->
+    <link rel="stylesheet" href="css/simpletextrotator.css">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+    <!-- Google fonts - Roboto Condensed & Roboto-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,400">
+    <!-- lightbox-->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]-->
+
+</head>
+<body class="listado">
+<!-- navbar-->
+<header class="home">
+    <div role="navigation" class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="navbar-buttons">
+                    <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle navbar-btn">Menu<i class="fa fa-align-justify"></i></button>
+                </div>
+            </div>
+            <div id="navigation" class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="../index.php">Home</a></li>
+                    <li><a href="../estilos.php">Estilos</a></li>
+                    <li><a href="../contacto.php">Contacto</a></li>
+                </ul>
+                <a href="#" data-toggle="modal" data-target="#login-modal" class="btn navbar-btn btn-white pull-left"><i class="fa fa-sign-in"></i>Log in</a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- *** LOGIN MODAL ***_________________________________________________________
+-->
+<div id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true" class="modal fade">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
+                <h4 id="Login" class="modal-title">Inicio de Sesión</h4>
+            </div>
+            <div class="modal-body">
+                <form action="./listado.html" method="get">
+                    <div class="form-group">
+                        <input id="email_modal" type="text" placeholder="Introduzca su e-mail" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <input id="password_modal" type="password" placeholder="Introduzca su contraseña" class="form-control" required>
+                    </div>
+                    <p class="text-center">
+                        <button type="submit" class="btn btn-primary"><i class="fa fa-sign-in" ></i>Únete</button>
+                    </p>
+                </form>
+                <p class="text-center text-muted">¿No estás registrado?</p>
+                <p class="text-center text-muted"><a href="registro.html"><strong>¡Regístrate ahora!</strong></a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- *** LOGIN MODAL END ***-->
+<div id="carousel-home" data-ride="carousel" class="carousel slide carousel-fullscreen carousel-fade">
+<section>
+    <h1 class = "mantenimiento" >Ups! Algo no salió bien<i class = "fa fa-music"></i></h1>
+</section>
+</body>
+</html>

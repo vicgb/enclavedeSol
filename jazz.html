@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>En Clave de Sol</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Mixtape template project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Font Awesome & Pixeden Icon Stroke icon font-->
+    <link rel="stylesheet" href="../css/simpletextrotator.css">
+
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/pe-icon-7-stroke.css">
+    <!-- Google fonts - Roboto Condensed & Roboto-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,400">
+    <!-- lightbox-->
+    <link rel="stylesheet" href="../css/lightbox.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="../css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+    <link rel="shortcut icon" href="../css/favicon.ico">
+
+</head>
+<body>
+
+<div class="super_container">
+    <!-- Header -->
+    <header class="header">
+        <div class="header_content d-flex flex-row align-items-center justify-content-center">
+
+            <nav class="main_nav">
+                <ul class="d-flex flex-row align-items-start justify-content-start">
+                    <li class="active"><a href="../index.php">Home</a></li>
+                    <li><a href="../estilos.php">Estilos</a></li>
+                    <li><a href="../contacto.php">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger ml-auto">
+                <div class="d-flex flex-column align-items-end justify-content-between">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home -->
+
+    <div class="home">
+        <div class="home_slider_container">
+
+            <!-- Home Slider -->
+            <div class="owl-carousel owl-theme home_slider">
+
+                <!-- Slide -->
+                <div class="owl-item">
+                    <div class="background_image" style="background-image:url(../img/jazz-1658886_1920.jpg)"></div>
+                    <div class="home_container">
+                        <div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
+                            <div class="home_content text-center">
+                                <div class="home_title" ><h1>Jazz</h1></div>
+                                <div class="home_subtitle"><span class = "rotate">"Jazz es un término de los blancos para definir la música negra. Yo hago música clásica negra</span></div>
+                                <p>- Nina Simone</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Album -->
+
+    <div class="featured_album">
+        <div class="background_image featured_background" style="background-image:url(../img/featured.png)"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-6">
+                </div>
+            </div>
+            <div class="row featured_row row-lg-eq-height">
+
+                <!-- Featured Album Image -->
+                <div class="col-md-6">
+                    <div class="featured_album_image">
+                        <div class="image_overlay"></div>
+                        <div class="background_image" style="background-image:url(../img/tocadiscos3.jpg)"></div>
+                        <!-- <img src="images/featured_album.jpg" alt=""> -->
+                    </div>
+                </div>
+
+                <!-- Featured Album Player -->
+                <div class="col-md-6 featured_album_col">
+                    <div class="featured_album_player_container d-flex flex-column align-items-start justify-content-center">
+                        <div class="featured_album_player">
+                            <div class="featured_album_title_bar d-flex flex-row align-items-center justify-content-start">
+                                <div class="featured_album_title_container">
+                                    <div class="featured_album_title">Mix del mes de Mayo 2019:</div>
+                                </div>
+                            </div>
+                            <div id="jplayer_1" class="jp-jplayer"></div>
+                            <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                                <div class="jp-type-playlist">
+                                    <div class="jp-playlist">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                    <div class="player_details d-flex flex-row align-items-center justify-content-start">
+                                        <div class="jp-details">
+                                            <div>Reproduciendo</div>
+                                            <div class="jp-title" aria-label="title">&nbsp;</div>
+                                        </div>
+                                        <div class="jp-controls-holder ml-auto">
+                                            <button class="jp-play" tabindex="0"></button>
+                                        </div>
+                                    </div>
+                                    <div class="player_controls">
+                                        <div class="jp-gui jp-interface d-flex flex-row align-items-center justify-content-start">
+                                            <div class="jp-controls-holder time_controls d-flex flex-row align-items-center justify-content-start">
+                                                <div><div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div></div>
+                                                <div class="jp-progress">
+                                                    <div class="jp-seek-bar">
+                                                        <div class="jp-play-bar"></div>
+                                                    </div>
+                                                </div>
+                                                <div><div class="jp-duration ml-auto" role="timer" aria-label="duration">&nbsp;</div></div>
+                                            </div>
+                                            <div class="jp-volume-controls d-flex flex-row align-items-center justify-content-start ml-auto">
+                                                <button class="jp-mute" tabindex="0"></button>
+                                                <div class="jp-volume-bar">
+                                                    <div class="jp-volume-bar-value"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="jp-no-solution">
+                                        <span>Actualización Requerida</span>
+                                        Para escuchar la música tienes que actualizar tu navegador o ir a la última versión de <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- Artist -->
+
+<div class="artist">
+    <div class="container">
+        <div class="row">
+
+            <!-- Artist Image -->
+            <div class="col-lg-4 artist_image_col">
+                <div class="artist_image">
+                    <img src="../img/ninasimone.png" alt="Foto de Nina Simone" style="padding-left: 217px;padding-top:240px">
+                </div>
+            </div>
+
+            <!-- Artist Content -->
+            <div class="col-lg-7 offset-lg-1">
+                <div class="artist_content">
+                    <div class="section_title_container">
+                        <div class="section_title"><h1>Artista-Banda del mes:</h1></div>
+                        <div class="section_subtitle"><h1>Nina Simone</h1></div>
+                    </div>
+                    <div class="artist_text">
+                        <p> (Nombre artístico de Eunice Kathleen Waymon; Tryon, Carolina del Norte, 1933 - Carry-le-Rouet, Francia, 2003) Cantante y pianista estadounidense, considerada una de las grandes voces del siglo XX. Nina era la sexta de una familia de ocho hermanos, descendiente principalmente de esclavos africanos, aunque entre sus ancestros también hubo sangre irlandesa e india.
+
+                            Su padre, John Divine Waymon, se dedicó durante un tiempo al mundo del espectáculo: cantaba, bailaba y tocaba la armónica, aunque cuando su familia empezó a ser numerosa, trabajó en una tintorería y como barbero para salir adelante. La madre, Mary Kate, tocó el piano para él en alguna ocasión, aunque luego se hizo ministra de la Iglesia metodista y rechazó todo lo que no fueran espirituales religiosos.<p>Simone creció, pues, rodeada de música. En su hogar, todos los hermanos cantaban y tocaban algún instrumento, sin tomar clases ni tener siquiera conciencia de haber aprendido. Cuenta en su autobiografía que su primer recuerdo de la infancia es su madre cantando gospel, y que empezó a tocar el órgano que había en la casa tan pronto como creció lo suficiente como para sentarse en el banco y llegar al teclado. Nadie se dio cuenta hasta que un día su madre la vio tocando una de sus canciones favoritas: aún no había cumplido tres años. </div>
+                    <div class="single_player_container d-flex flex-column align-items-start justify-content-center">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <!-- Footer -->
+
+<footer>
+    <div class="copyright_bar">
+			<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Víctor Álvarez Provencio &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</span>
+    </div>
+</footer>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/jPlayer/jquery.jplayer.min.js"></script>
+<script src="plugins/jPlayer/jplayer.playlist.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.cookie.js"> </script>
+<script src="../js/lightbox.min.js"></script>
+<script src="../js/front.js"></script>
+<script src="../js/jquery.simple-text-rotator.js"></script>
+<script src="../js/jquery.simple-text-rotator.min.js"></script>
+<script>$(".rotate").textrotator({
+    animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+    separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+    speed: 2000, // How many milliseconds until the next word show.
+});</script>
+
+</body>
+</html>
